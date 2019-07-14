@@ -9,7 +9,6 @@ public interface JavaGrep {
      * workflow
      */
     void process();
-
     /**
      * Traverese a given directory and return all files
      * @param rootDir input directory
@@ -19,7 +18,6 @@ public interface JavaGrep {
     /**
      * Read a file and return all the lines
      * Explain FIleReader, BufferedReader, and character encoding
-     *
      * @param inputFile file to be read
      * @return lines
      * @throws IllegalArgumentException if a given inputFile is not a file
@@ -33,22 +31,16 @@ public interface JavaGrep {
     boolean containsPattern(String line);
     /**
      * write lines to a file
-     *
      * Explore: FileOutputStream, OutputStreamWriter and Bufferedwritter
-     *
      * @param lines matched line
      * @throws IOException if write failed
      */
     void writeToFile(List<String> lines) throws IOException;
 
-
-
     String getRootDir();
     void setRootDir(String rootDir);
-
     String getRegex();
     void setRegex(String regex);
-
     String getOutFile();
     void setOutFile(String outFile);
 

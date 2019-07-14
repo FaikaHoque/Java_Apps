@@ -41,7 +41,6 @@ public class JavaGrepImp implements JavaGrep {
     }
 
     /**
-     *
      * @param rootDir input directory
      * @return list of files from root directory, sub directory
      */
@@ -102,14 +101,12 @@ public class JavaGrepImp implements JavaGrep {
         }
         return lines;
 
-
     }
 
     @Override
     public boolean containsPattern(String line) {
         Pattern pattern = Pattern.compile(regex);
         Matcher matcher = pattern.matcher(line);
-
         return matcher.find();
     }
 
@@ -126,7 +123,6 @@ public class JavaGrepImp implements JavaGrep {
                 // System.out.println(outputLine);
             }
             writer.close();
-
 
         }
         catch (IOException e)
