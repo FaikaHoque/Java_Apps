@@ -88,8 +88,8 @@ resultset = connection.statement.executeQuery("SELECT COUNT(*) from customer")
 Following figure shows an  work flow overview of JDBC in the Java persistence layer. 
 
 ### Work Flow Diagram
+![JDBCflow diagram-2](https://user-images.githubusercontent.com/51927068/61219893-2b8da180-a6e3-11e9-9cdc-da622ef674ce.jpg)
 
-![JDBCflow diagram-2](C:\Users\User\Documents\JDBCflow diagram-2.jpg)
 
 ### Pseudocode
 
