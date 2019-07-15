@@ -64,7 +64,6 @@ public class TwitterRestDao implements CrdDao<Tweet, String> {
 
     }
 
-
     @Override
     public Tweet deleteById(String id) {
         URI uri;
