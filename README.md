@@ -154,7 +154,7 @@ latitude:longitude - Geo location
 
 Following diagram shows different layers of the app cycle
 
-![Twitterpost-1](C:\Users\User\Documents\Twitterpost-1.jpg)
+![Twitterpost-1](https://user-images.githubusercontent.com/51927068/61220086-917a2900-a6e3-11e9-9e0f-4cd0a1269183.jpg)
 
 ### Component Design
 
