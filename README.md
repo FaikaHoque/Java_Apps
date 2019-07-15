@@ -152,7 +152,7 @@ latitude:longitude - Geo location
 
 ### Overview of App Architecture
 
-Following diagram shows different layers of the software cycle
+Following diagram shows different layers of the app cycle
 
 ![Twitterpost-1](C:\Users\User\Documents\Twitterpost-1.jpg)
 
