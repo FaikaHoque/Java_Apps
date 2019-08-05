@@ -13,8 +13,10 @@ import java.util.List;
 })
 
 public class Hashtag {
+
     @JsonProperty("text")
     private String text;
+
     @JsonProperty("indices")
     private List<Long> indices = null;
 

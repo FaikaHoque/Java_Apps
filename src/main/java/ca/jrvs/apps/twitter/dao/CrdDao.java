@@ -14,7 +14,10 @@ public interface CrdDao <T, ID> {
     T findById(ID id);
     /**
      * delete an entity by its ID
+     * @param id of the entity to be deleted
+     * @return deleted entity
      */
+
     T deleteById(ID id);
 
 }

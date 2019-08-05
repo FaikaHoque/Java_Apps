@@ -16,6 +16,7 @@ public class Entities {
 
     @JsonProperty("hashtags")
     private List<Hashtag> hashtags = null;
+
     @JsonProperty("user_mentions")
     private List<UserMention> userMentions = null;
 

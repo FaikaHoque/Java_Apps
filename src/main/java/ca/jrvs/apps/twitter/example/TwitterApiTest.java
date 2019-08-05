@@ -16,10 +16,11 @@ public class TwitterApiTest {
 
     private static String CONSUMER_KEY = "M5L2pCSuFWNFiBXuQAPTU9gWL";
     private static String CONSUMER_SECRET = "KYXAJCl0mVHxiVLhpKI5VuZsldcK12ONwnm4Q74iMnsQWnJBiN";
-    private static String ACCESS_TOKEN = "1085915382156689410-jPP1QEoF67cffvEdFUcNlfCpGZpyu5";
-    private static String TOKEN_SECRET = "5u8oVz6WoXysM4LuNaHMbptfhozt3KoVoeEkhVNCjc5mK";
+    private static String ACCESS_TOKEN = "1085915382156689410-2s4WIoZTDkf1jgtbmJKLUsw9tJRIkQ";
+    private static String TOKEN_SECRET = "vBQvJsg9TRtj4YZAvpV6iihJBZ2H7ufwhy1BN599SNrfA";
 
     public static void main(String[] args) throws Exception {
+
         OAuthConsumer consumer = new CommonsHttpOAuthConsumer(CONSUMER_KEY, CONSUMER_SECRET);
         consumer.setTokenWithSecret(ACCESS_TOKEN, TOKEN_SECRET);
 
