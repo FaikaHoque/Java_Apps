@@ -7,7 +7,6 @@ import java.util.Arrays;
 import java.util.function.Predicate;
 
 public class TweetUtil {
-
     private final static Double MAX_LAT = 90d;
     private final static Double MIN_LAT = -90d;
     private final static Double MAX_LON = 180d;
