@@ -1,5 +1,3 @@
-# Order of operations
-These commands are for linux/Mac, changes will need to made if you are running this in Microsoft Windows.
 
 ## Prerequisites
 Docker is installed
