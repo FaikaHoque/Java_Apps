@@ -1,6 +1,6 @@
 # Overview 
 
-This Java_apps package contains three apps. Twitter App, Grep App and JDBC. 
+This Java_apps package contains three apps. Twitter App, Grep App and JDBC. Each app contains three sections: Introduction, usage and brief description of design and implementation of the app.
 
 # Twitter CLI App
 
